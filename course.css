@@ -1,0 +1,50 @@
+/* public/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: url(../bg.jpg)
+  }
+  
+    
+  #course-builder {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(75 134 219 / 0%);
+  }
+  h1{
+    text-align: center;
+    font-size: 70px;
+  }
+  #add-module {
+    margin: 5px 5px 0px 5px;
+  }
+
+  #add-module:hover{
+    background-color:black;
+    color:white;
+  }
+  .module {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color:rgb(75, 188, 219);
+  }
+  
+  
+  .resource {
+    margin: 5px 0;
+    background-color:rgb(75, 188, 219);
+  }
+  
+  #save {
+    margin: 0px 10px 10px 10px ;
+    size: 10px;  
+  }
+
+  #save:hover{
+    background-color: black;
+    color:white;
+  }
+  .drag-over {
+    border: 2px dashed #d7d1d1;
+  }
